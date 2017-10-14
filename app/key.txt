@@ -1,0 +1,40 @@
+
+G:\WorkSpace\CarLocation>keytool -v -list -keystore G:\WorkSpace\CarLocation\app\Carlocation_Key.jks
+输入密钥库口令: carlocation123
+
+密钥库类型: JKS
+密钥库提供方: SUN
+
+您的密钥库包含 1 个条目
+
+别名: key0----------car123456
+创建日期: 2017-4-14
+条目类型: PrivateKeyEntry
+证书链长度: 1
+证书[1]:
+所有者: CN=com.jskingen, OU=com.jskingen, O=com.jskingen, L=Jiangsu, ST=yz, C=01
+发布者: CN=com.jskingen, OU=com.jskingen, O=com.jskingen, L=Jiangsu, ST=yz, C=01
+序列号: 4a48f617
+有效期开始日期: Fri Apr 14 14:13:28 CST 2017, 截止日期: Wed Apr 04 14:13:28 CST 2057
+证书指纹:
+         MD5: 9C:64:AD:F4:D0:99:65:14:BD:E8:90:D3:44:98:A3:40
+         SHA1: 48:1B:13:21:0F:D6:8D:B2:EA:E8:28:45:0C:B4:0E:92:F9:1A:6D:96
+         SHA256: 68:7F:C3:49:5B:49:A8:1D:E6:53:AE:6C:18:02:57:28:A5:56:07:51:F8:01:FB:2F:C5:30:1F:27:
+20:F1:09:2C
+         签名算法名称: SHA256withRSA
+         版本: 3
+
+扩展:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 87 30 9E 05 C4 E3 1F 00   E1 22 FB 73 81 9F 95 56  .0.......".s...V
+0010: 4C 7C 84 D7                                        L...
+]
+]
+
+
+
+*******************************************
+*******************************************

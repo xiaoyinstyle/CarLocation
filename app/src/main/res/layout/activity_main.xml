@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jskingen.carlocation.activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="90dp"
+                android:paddingBottom="13dp"
+                android:paddingLeft="13dp"
+                android:paddingTop="13dp"
+                android:text="@string/tv_main_user_name"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_main_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                tools:text="某某人" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="90dp"
+                android:paddingBottom="13dp"
+                android:paddingLeft="13dp"
+                android:paddingTop="13dp"
+                android:text="@string/tv_main_project_name"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_main_project_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:hint="@string/tv_main_project_name_info"
+                android:paddingBottom="13dp"
+                android:paddingRight="13dp"
+                android:paddingTop="13dp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                tools:text="哔哔哔" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="90dp"
+                android:paddingBottom="13dp"
+                android:paddingLeft="13dp"
+                android:paddingTop="13dp"
+                android:text="@string/tv_main_project_mileage"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_main_project_mileage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:hint="@string/tv_main_project_mileage_info"
+                android:paddingBottom="13dp"
+                android:paddingRight="13dp"
+                android:paddingTop="13dp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                tools:text="里程数" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/bt_main_start"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/bt_selector_blue"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="@string/bt_main_start"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bt_main_upload"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bt_selector_blue"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="@string/bt_main_upload"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/bt_main_photo_start"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:text="@string/bt_main_photo_start"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/iv_main_photo_start"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/bt_main_photo_end"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:text="@string/bt_main_photo_end"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/iv_main_photo_end"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="@string/bt_main_photo_crop"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/iv_main_photo_crop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fbt_new_project"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:src="@mipmap/ic_main_new"
+        app:backgroundTint="@color/colorPrimary"
+        app:borderWidth="0dp"
+        app:elevation="8dp"
+        app:pressedTranslationZ="5dp"
+        app:rippleColor="#33728dff" />
+</RelativeLayout>

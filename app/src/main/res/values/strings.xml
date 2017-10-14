@@ -1,0 +1,91 @@
+<resources>
+    <!--<string name="app_name">CarLocation</string>-->
+    <string name="app_name">用车管理系统</string>
+    <!--权限相关-->
+    <string name="cancel">取消</string>
+    <string name="help">帮助</string>
+    <string name="string_help_text">当前应用缺少必要的权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回。</string>
+    <string name="settings">设置</string>
+    <string name="title_activity_utils">UtilsActivity</string>
+    <!--阿里百川 RSA-->
+    <string name="RSA">MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCWLKHgfAe2ZdE2h9dbPWH0dgFcqEx48Hsukf4WTcajjV0Cs2NHTsJgKXI13YbA4ZCjuUG17Pls9nB5+CSSKtb1X6D+zclHvI8E5UsDUepEZOfCZnr6VRwFFOTEJ3CgMhqKcqE/2kbvbk4WS4vs8dIq4iOQ6CDPMAJj1TMudNPRVoVMmd4xk2ipPUc3BFdRwHgreqX4PoC1///4nBLsUTLlPaGSKiHqwokWnkNV8SkYRCoiX/mYBJ8GrS5D9J7ZYERVaDRJVu6CUB8LkdohoyeLkjQ4TDxbKPX3kWq9iNkd6EQ7S7Qe7VkpLNovoiTyJD3uOaYfbELEjWJ6jCkYlHXBAgMBAAECggEAOxd86xRjBIaz+D0jpKdWsBbvGkKvNLeMARs5XBVmoFyzyKhF3H1FRwmIA2IT8DnR7FqtXKTO0O13/MaDvXBV/V+PvjPDjBLKRCbliXzmLdt2xqwEoBR1XhqGmhja3G5auze386Q0XWqOF3/Ko4XUKUOqsw5kOqKtjhMKfLFD2A8VMg1TQuHzAhL96OLbFvO7sPUHUPsaHcePFidj+zwxJV0JpoZlOg3PLCcYqeItDatv9YTx88mUCRPfzI1rioF1050qAQXO7bWKpKyt0loSjv2LFcVNILP3Xfl1VQC4+zEiERRpGJrKuDXvnKmf/LP5mMO/Oupl9654rY5GjXzdQQKBgQDI/BOQN4zga/FEkXozkFLPrQIR9Jy//l5dF+DttB2kqCcBavzSLpALc3H0/POy6k07RIZTs+E5lK+0MS418ur0vSEsQN+S9vULP2mDJB4m7rbOqR6SNOoPrr1fotvuvwTYAoRF0Nb31P4o2ISHjoKELo/pfKYuZFHiZtRy+Wq+VQKBgQC/SAqt6PqFf9QNK6q9kWSUE7pK+HMk5JCNk8BnyNFQMtyU636tKh6f2LeYUIsxAlH33vP63B8wXlXb6Rvcffm8L8ZmW8a8Mwol7BcAjgT5N2asU5J+xJeHKeMjsu/N8LdfpufPsxtPjKQm5BufeHqhM5kjiJb6B1Irk8meaw0tvQKBgQCvH3WsY7rMkUFYjan84/REIGt9WbZ7VBjE5NmIRTjPD/Vsttw0B35be+v/m6h8bMt+qOaiaEoG8hdm2rN5LoCrX2BYPu6QD77UXhyBuCbNpZKD37hTjOelYox/mFgqXybJUOgQLTgiGeSbko1n0DTJGAktWP8zzRXMP+09gTYRQQKBgHiFXt0292pYIXbu9ZSd4F6Ak5ebNYmgTgg2eTurR18dvOhD/TwEVulmdj+NODZ3/MeN/fIo8anbNoPqO7jQ0yKkg4CJAQ4hpppASDn8Qdv48UNRIPOo0MTEOq6KlxgOPKwTEOpIMsQLnH44qcLv+WxKg4nlDSOaq0Zzxsx/LP2NAoGBAIySja6iulPuLaBnnkPw8GGz2yzSLsL5SMFmvosKzcSP+WX16acDOknYLkA0O9Q1jKQuOKDwSSaSUG45BW0SVxQ6VT+Ga6gUsGj/+EXCDTaUFRfuMOPVewEzj8jQB55kxVlIelGolwgS6aHlON5c8Zs8DZ412ZJr8TawXiI3wbH5</string>
+
+    <!--Login-->
+    <string name="activity_login_title">登录</string>
+    <string name="et_login_username">用户名</string>
+    <string name="et_login_password">密码</string>
+    <string name="bt_login_login">登录</string>
+    <string name="bt_login_regist">申请加入公司</string>
+
+    <string name="login_password_null">密码不能为空</string>
+    <string name="login_user_null">用户名不能为空</string>
+
+    <string name="title_activity_map">MapActivity</string>
+
+    <string name="main_project_name_null">项目名不能为空</string>
+    <string name="main_project_mileage_null">里程数不能为空</string>
+    <string name="main_project_name_error">请输入2-20个汉字或者字母</string>
+    <string name="main_project_mileage_error">请输入内容不合法</string>
+
+    <string name="et_dialog_hint">请输入项目名</string>
+    <string name="et_dialog_mileage_hint">请输入本次行程的里程数</string>
+    <string name="login_password_error">用户名或者密码错误</string>
+    <string name="toast_error">未知错误...</string>
+
+    <!--历史记录-->
+    <string name="title_record">历史记录</string>
+    <string name="map_show_all">显示所有路段</string>
+    <string name="map_uplaod_file_success">上传成功</string>
+    <string name="map_uplaod_error_image">图片上传错误，请稍候重新上传</string>
+    <string name="map_uplaod_error_location">位置上传错误，请稍候重新上传</string>
+    <string name="map_uplaod_error">上传错误，请稍候重新上传</string>
+    <string name="map_save_error">图片保存失败</string>
+    <string name="login_user_password">记住密码</string>
+    <string name="login_show_password">显示密码</string>
+
+    <!--MainActivity-->
+    <string name="bt_main_upload">上传</string>
+    <string name="bt_main_start">开始</string>
+    <string name="bt_main_photo_start">始发地拍照</string>
+    <string name="bt_main_photo_end">目的地拍照</string>
+    <string name="tv_main_project_name_info">点击添加项目名称</string>
+    <string name="tv_main_project_mileage_info">点击添加里程数</string>
+    <string name="tv_main_project_name">项目名称：</string>
+    <string name="tv_main_project_mileage"> 里 程 数 ：</string>
+    <string name="tv_main_user_name">当前用户：</string>
+    <string name="dialog_input_null">输入的内容不能为空</string>
+    <string name="main_project_photo_start_null">请先拍第一张照片</string>
+    <string name="main_project_photo_end_null">请先拍最后一张照片</string>
+    <string name="main_create_project">是否需要重新创建行程</string>
+    <string name="main_take_photo_again">重新拍照</string>
+    <string name="main_need_upload">请先完成本次记录后，继续查看历史</string>
+    <string name="main_need_start">请在行程结束前填写本次的里程数</string>
+
+    <!--MapActivity-->
+    <string name="map_dialog_back">是否结束行程</string>
+    <string name="map_title_back">结束</string>
+    <string name="map_title_right">预览</string>
+    <string name="map_start_adress">开始地址：</string>
+    <string name="map_end_adress">结束地址：</string>
+    <string name="map_drive_time">行车时间</string>
+    <string name="map_drive_speed">实时速度</string>
+    <string name="map_drive_speed_avg">平均速度</string>
+    <string name="map_drive_unit">公里</string>
+    <string name="map_dialog_deal">处理中</string>
+
+    <!--统计-->
+    <string name="tv_statistics_start">开始时间</string>
+    <string name="tv_statistics_end">结束时间</string>
+    <string name="tv_statistics_custom">自定义查询( 查询结果: </string>
+    <string name="tv_statistics_month_">当月</string>
+    <string name="tv_statistics_week">当周</string>
+    <string name="tv_statistics_day">当天</string>
+    <string name="bt_main_photo_crop">轨迹快照</string>
+    <!--注册-->
+    <string name="title_activity_register">注册</string>
+    <string name="statistics_no_picture">没有可以查看的图片</string>
+    <string name="tv_register_input_hint">请输入公司帐号</string>
+    <string name="tv_register_input_name_hint">请输入你的真是姓名</string>
+    <string name="tv_register_input_photo_hint">请输入你的手机号</string>
+
+</resources>
